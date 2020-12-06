@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Talk </title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Banana Translator</h1>
-    <textarea name="" id="input-text-area" cols="30" rows="10"></textarea>
-    <button id="button-translate"> Translate</button>
+    <header class="header">
+        <h1>Banana Translator</h1>
+    </header>
 
-    <textarea name="" id="output-area" cols="30" rows="10"></textarea>
+    <div class="main">
+        
+        <textarea name="" id="input-text-area" class="one-text-area" ></textarea>
+        <button id="button-translate" class="two-button"> 🖱️ Translate</button>
+        <h3 class="output-label">👇  Translation will come here</h3>
+        <div id="output-area" class="three-output-area"></div>
+    </div>
+
+    <footer class="header footer">
+        <h2>About</h2>
+        <p>This app is made using funtranslation api, This converts text into minion language, by the way this is my first api app
+        </p>
+    </footer>
+
     <script src="/app.js"></script>
 </body>
 </html>

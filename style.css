@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+:root{
+    --primary-color:#FCD34D;
+    --secondary-color:#FEF3C7;
+}
+body{
+    background-color: var(--secondary-color);
+    
+}
+.header{
+    background-color: var(--primary-color);
+    padding: 0rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    height: 7rem;
+}
+.header h1{
+    padding: 2.5rem;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+
+}
+.main{
+    max-width: 650px;
+    margin: auto;
+    
+}
+.one-text-area{
+width: 80%;
+display: block;
+margin: auto;
+margin-top: 4rem;
+height: 20vh;
+border: 0.1rem solid 
+
+}
+.two-button{
+    display: block;
+    margin-left: 10%;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    background-color: #FBBF24;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 250;
+    ;
+    
+}
+.output-label{
+    margin-top: 2rem;
+    margin-left: 10%;
+}
+.three-output-area{
+    width: 80%;
+    display: block;
+    margin: auto;
+    height: 15vh;
+    border: 0.1rem solid black;
+}
+.footer{
+    margin-top: 3rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    height: 8.5rem;
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
