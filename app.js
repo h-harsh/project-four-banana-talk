@@ -1,8 +1,8 @@
 var inputtextarea = document.querySelector("#input-text-area");
 var button = document.querySelector("#button-translate");
 var outputarea = document.querySelector("#output-area");
-var url ="https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json"
-// var url = "https://api.funtranslations.com/translate/minion.json"
+
+var url = "https://api.funtranslations.com/translate/minion.json"
 
 function translator(){
     var text = url + "?" + "text=" +  inputtextarea.value; 
