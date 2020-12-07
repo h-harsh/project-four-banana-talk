@@ -20,21 +20,18 @@ body{
     text-align: center;
     font-family: 'Pacifico', cursive;
     font-weight: 300;
-
 }
 .main{
     max-width: 650px;
     margin: auto;
-    
 }
 .one-text-area{
-width: 80%;
-display: block;
-margin: auto;
-margin-top: 4rem;
-height: 20vh;
-border: 0.1rem solid 
-
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+    height: 20vh;
+    border: 0.1rem solid 
 }
 .two-button{
     display: block;
@@ -46,8 +43,6 @@ border: 0.1rem solid
     background-color: #FBBF24;
     font-family: 'Permanent Marker', cursive;
     font-weight: 250;
-    ;
-    
 }
 .output-label{
     margin-top: 2rem;
